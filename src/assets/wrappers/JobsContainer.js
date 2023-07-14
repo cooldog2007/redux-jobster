@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   margin-top: 4rem;
@@ -6,6 +6,7 @@ const Wrapper = styled.section`
     text-transform: none;
   }
   & > h5 {
+    color: var(--primary-500);
     font-weight: 700;
   }
   .jobs {
@@ -20,5 +21,5 @@ const Wrapper = styled.section`
       gap: 1rem;
     }
   }
-`
-export default Wrapper
+`;
+export default Wrapper;
